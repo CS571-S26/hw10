@@ -52,6 +52,9 @@ The conversation history and selected persona should be persisted to `localStora
 
 ![An example of localStorage key/value pairs](_figures/step4.png)
 
-### Submission Details
+### Submission
+**Before submitting to Gradescope, you have one more thing to do!** In the root directory (that contains this `README.md`). Create a file named `.badgerid`. Then, paste your Badger ID (and only your BadgerID; no spaces or newline characters) into this file. This is used by Gradescope in your submission.
 
-There is no demo video for this assignment; simply add, commit, and push your code! Congratulations on completing your last HW of the semester! 🥳
+Finally, add, commit, and push your changed files to your GitHub Classroom repository. Then, zip the `hw10` folder and submit to Gradescope. Autograding tests should complete within a few minutes. Review your results, and submit as many times as you need up until the assignment deadline. 🥳
+
+**Important:** Gradescope expects everything to be within the `hw10` zip. If the file path is not prefixed with `hw10` as below, you will *not* pass the autograder. Other files such as figures and git files can be included, but are ignored by the autograding process.
