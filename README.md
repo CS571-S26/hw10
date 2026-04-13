@@ -1,4 +1,4 @@
-# CS571-S26 HW11: BadgerChatGPT (AI!)
+# CS571-S26 HW10: BadgerChatGPT (AI!)
 
 For this assignment, you will implement an interface for conversing with multiple different general-purpose agent personas. BadgerChatGPT is *not* a continuation of our BadgerChat series; it is a standalone project.
 
@@ -23,7 +23,7 @@ Then, in a browser, open `localhost:5173`. You should *not* open index.html in a
 
 ### 1. Implement Conversation
 
-When the user sends a message, the agent should respond **in real-time**. This can be done with a `POST` request to `https://cs571api.cs.wisc.edu/rest/hw11/completions-stream` appropriately handling the stream of responses. Please see `API_DOCUMENTATION.md` for more details.
+When the user sends a message, the agent should respond **in real-time**. This can be done with a `POST` request to `https://cs571api.cs.wisc.edu/rest/hw10/completions-stream` appropriately handling the stream of responses. Please see `API_DOCUMENTATION.md` for more details.
 
 ![An example conversation between user and assistant](_figures/step1.png)
 
@@ -47,8 +47,6 @@ This is a fun, but required, step. Add 1 more persona to the list of `PERSONAS`.
 ### 4. Use `localStorage`
 
 The conversation history and selected persona should be persisted to `localStorage`. That is, whenever a user exits and returns to a page, the conversation and selected persona remains. The conversation should only reset whenever a user starts a new chat or the `localStorage` is cleared (e.g. deleting the browser history).
-
-**Hint:** In WebDev 5 we talked about creating a custom hook called `useStorage`; I'd recommend (but not require) doing this!
 
 ![An example of localStorage key/value pairs](_figures/step4.png)
 

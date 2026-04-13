@@ -8,7 +8,7 @@ Used to generate a response using GPT-4o Mini. **You are responsible for all tra
 
 #### Request
 
-`POST` `https://cs571api.cs.wisc.edu/rest/s26/hw11/completions`
+`POST` `https://cs571api.cs.wisc.edu/rest/s26/hw10/completions`
 
 You must request an AI completion with a list of message objects, each containing a valid `role` ("developer", "assistant", or "user") and corresponding `content` as well as a valid set of headers specified below.
 
@@ -69,7 +69,7 @@ If you make too many requests in a short period of time, the following `429` wil
 
 ### `/completions-stream` 
 
-`POST` `https://cs571api.cs.wisc.edu/rest/s26/hw11/completions-stream`
+`POST` `https://cs571api.cs.wisc.edu/rest/s26/hw10/completions-stream`
 
 
 *The request is the same for `/completions` and `/completions-stream`; the response differs.*
